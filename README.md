@@ -41,9 +41,6 @@ java-para-iniciantes/
 ├── 02-poo/                 # Segundo módulo e sistema de pedidos
 ├── 03-exercicios/          # Lista única de prática progressiva
 ├── 04-imagens/             # Recursos visuais
-├── CONTRIBUTING.md         # Como colaborar
-├── PUBLICACAO_LINKEDIN.md  # Texto de divulgação para personalizar
-└── pom.xml                 # Executa os testes dos dois módulos
 ```
 
 ## Como executar
