@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-labelledby="title desc">
+  <title id="title">Java para iniciantes</title>
+  <desc id="desc">Lógica de programação e POO em uma trilha visual, prática e executável.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#081426"/>
+      <stop offset="1" stop-color="#102A43"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="1" stop-color="#F97316"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="16" stdDeviation="18" flood-color="#000" flood-opacity=".28"/>
+    </filter>
+  </defs>
+
+  <rect width="1280" height="640" fill="url(#bg)"/>
+  <circle cx="1140" cy="80" r="260" fill="#1D4ED8" opacity=".14"/>
+  <circle cx="1120" cy="590" r="300" fill="#F97316" opacity=".08"/>
+  <path d="M0 540 C260 460 430 660 720 560 C950 480 1090 520 1280 430 V640 H0Z" fill="#fff" opacity=".035"/>
+
+  <g transform="translate(88 78)">
+    <rect x="0" y="0" width="198" height="44" rx="22" fill="#172F4E" stroke="#315174"/>
+    <circle cx="26" cy="22" r="7" fill="#F59E0B"/>
+    <text x="46" y="29" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" font-weight="600" fill="#DCE8F5">JAVA • ESTUDO</text>
+
+    <text x="0" y="152" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="66" font-weight="800" fill="#FFFFFF">Java para iniciantes</text>
+    <rect x="2" y="176" width="650" height="9" rx="4.5" fill="url(#accent)"/>
+    <text x="0" y="239" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="31" font-weight="500" fill="#C8D8E8">lógica + programação orientada a objetos</text>
+    <text x="0" y="299" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="24" fill="#91A8C0">Uma trilha visual, prática e executável.</text>
+
+    <g transform="translate(0 378)" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="18" font-weight="600">
+      <rect width="112" height="50" rx="12" fill="#143B62"/><text x="24" y="32" fill="#E8F1FA">LÓGICA</text>
+      <rect x="126" width="132" height="50" rx="12" fill="#143B62"/><text x="146" y="32" fill="#E8F1FA">DECISÕES</text>
+      <rect x="272" width="132" height="50" rx="12" fill="#143B62"/><text x="294" y="32" fill="#E8F1FA">MÉTODOS</text>
+      <rect x="418" width="92" height="50" rx="12" fill="#143B62"/><text x="443" y="32" fill="#E8F1FA">POO</text>
+    </g>
+
+    <text x="0" y="510" font-family="Inter,Segoe UI,Arial,sans-serif" font-size="19" fill="#6F8BA7">por Eduardo Lopes</text>
+  </g>
+
+  <g transform="translate(890 152)" filter="url(#shadow)">
+    <rect width="300" height="338" rx="28" fill="#0E2037" stroke="#294A6B" stroke-width="2"/>
+    <rect x="28" y="28" width="244" height="42" rx="10" fill="#152F4D"/>
+    <circle cx="50" cy="49" r="6" fill="#EF4444"/>
+    <circle cx="71" cy="49" r="6" fill="#F59E0B"/>
+    <circle cx="92" cy="49" r="6" fill="#22C55E"/>
+    <text x="30" y="118" font-family="JetBrains Mono,Consolas,monospace" font-size="19" fill="#7DD3FC">entrada</text>
+    <text x="30" y="158" font-family="JetBrains Mono,Consolas,monospace" font-size="19" fill="#E2E8F0">↓</text>
+    <text x="30" y="198" font-family="JetBrains Mono,Consolas,monospace" font-size="19" fill="#FDE68A">lógica</text>
+    <text x="30" y="238" font-family="JetBrains Mono,Consolas,monospace" font-size="19" fill="#E2E8F0">↓</text>
+    <text x="30" y="278" font-family="JetBrains Mono,Consolas,monospace" font-size="19" fill="#86EFAC">saída</text>
+    <rect x="28" y="290" width="244" height="20" rx="10" fill="#1B3858"/>
+    <rect x="28" y="290" width="172" height="20" rx="10" fill="url(#accent)" opacity=".85"/>
+  </g>
+</svg>
